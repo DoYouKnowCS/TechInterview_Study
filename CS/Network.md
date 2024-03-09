@@ -32,3 +32,13 @@
 <p>4. 서버는 요청을 받아 브라우저에 페이지를 띄워준다. 여기서 CSR이면 번들파일을 넘겨주어, 브라우저가 자체해석하여 페이지를 띄워주고, SSR이면, 페이지를 서버에서 구성하여 브라우저에 보여준다.</p>
 <hr>
 </details>
+
+<details>
+   <summary><span style="border-bottom:0.05em solid"><strong>도메인으로 어떻게 IP주소를 알수있나요?</strong></span></summary>
+<hr>
+<p>1. 처음 Local DNS서버에 해당 도메인에 대한 IP주소가 있는지 확인한다..</p>
+<p>2. 만약 Local DNS서버에 해당 하는 IP주소가 없다면, Root DNS 서버에 요청한다.</p>
+<p>3. Root DNS에 존재하지 않는다면, TLD DNS 서버에 요청한다. </p>
+<p>4. 이곳에도 존재하지 않는다면, Authoritative DNS에 해당 도메인에 대한 IP를 가져온다.</p>
+<hr>
+</details>
